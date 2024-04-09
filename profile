@@ -9,7 +9,7 @@ KH 1 = vmess, 220.158.233.184, 10000, username=11640516-f499-11ee-976a-fbe0772bb
 
 TH 1 = vmess, 185.78.165.153, 10000, username=84a2360c-f349-11ee-8df4-00163ea61c9a ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
-SG-HE 1 = trojan, sg1-trojan.bonds.id, 443, password=fcfeace0-d956-11ee-8d39-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
+SG-HE 1 = trojan, sg1-trojan.bonds.id, 443, password=009e6b90-f650-11ee-b126-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
 SG Melbi = trojan, sg-4.test3.net, 443, password=26fb6740-f0f3-11ee-a9c0-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
