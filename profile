@@ -11,7 +11,7 @@ TH 1 = vmess, 185.78.165.153, 10000, username=376e1878-fe17-11ee-9660-00163ea61c
 
 SG-HE 1 = trojan, sg1-trojan.bonds.id, 443, password=009e6b90-f650-11ee-b126-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
-SG Melbi = trojan, sg-4.test3.net, 443, password=26fb6740-f0f3-11ee-a9c0-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
+SG Melbi = trojan, sg-4.test3.net, 443, password=84584260-fe17-11ee-b4c4-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
 [Proxy Group]
 LIST SERVER = select, AUTO, BEST PING, include-all-proxies = true
