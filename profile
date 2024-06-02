@@ -5,13 +5,13 @@ dns-server = system, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
 test-timeout = 1
 
 [Proxy]
-KH 1 = vmess, 220.158.233.184, 10000, username=2d5542ac-1ee8-11ef-a185-175aff43361e ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+KH 1 = vmess, 220.158.233.184, 10000, username=8dcb70a2-20f0-11ef-8552-9bce3642c143 ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
-TH 1 = vmess, 185.78.165.153, 10000, username=613c993e-1c37-11ef-87a0-00163ea61c9a ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+TH 1 = vmess, 185.78.165.153, 10000, username=daaae3d0-20f0-11ef-a180-00163ea61c9a ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
 SG-HE 1 = trojan, sg1-trojan.bonds.id, 443, password=1a90e1a0-0e30-11ef-abcf-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
-SG Melbi = trojan, sg-4.test3.net, 443, password=8eba7200-0e12-11ef-9cdc-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
+SG Melbi = trojan, sg-4.test3.net, 443, password=0d8aff60-20f1-11ef-b817-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
 [Proxy Group]
 LIST SERVER = select, AUTO, BEST PING, include-all-proxies = true
