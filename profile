@@ -7,11 +7,11 @@ test-timeout = 1
 [Proxy]
 KH 1 = vmess, 220.158.233.184, 10000, username=aafd9a54-27eb-11ef-92bd-0ff47f990bc1 ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
-TH 1 = vmess, 185.78.165.153, 10000, username=ff2fbcec-27eb-11ef-81fb-a34c2aab0ee7 ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+TH 1 = vmess, 185.78.165.153, 10000, username=8f67776a-2967-11ef-bb27-00163ea61c9a ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
 SG-HE 1 = trojan, sg1-trojan.bonds.id, 443, password=42be7010-27ec-11ef-9187-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
-SG Melbi = trojan, sg-4.test3.net, 443, password=4ff1f800-2657-11ef-89bc-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
+SG Melbi = trojan, sg-4.test3.net, 443, password=e03b44e0-2967-11ef-b3ed-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
 [Proxy Group]
 LIST SERVER = select, AUTO, BEST PING, include-all-proxies = true
