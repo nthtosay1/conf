@@ -5,7 +5,7 @@ dns-server = system, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
 test-timeout = 1
 
 [Proxy]
-KH 1 = vmess, 220.158.233.184, 10000, username=aafd9a54-27eb-11ef-92bd-0ff47f990bc1 ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+KH 1 = vmess, 220.158.233.184, 10000, username=82208238-2bbd-11ef-9fd2-5b3043e3e411 ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
 TH 1 = vmess, 185.78.165.153, 10000, username=8f67776a-2967-11ef-bb27-00163ea61c9a ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
